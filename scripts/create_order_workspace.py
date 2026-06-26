@@ -13,6 +13,11 @@ SERVICES = {
     "citation-audit": "RMB 3.99 citation support audit",
     "repro-audit": "RMB 5.99 reproducibility package audit",
 }
+TEMPLATES = {
+    "paper-reading": ROOT / "delivery-templates" / "paper-reading-brief.md",
+    "citation-audit": ROOT / "delivery-templates" / "citation-support-audit.md",
+    "repro-audit": ROOT / "delivery-templates" / "reproducibility-package-audit.md",
+}
 
 
 def slugify(value: str) -> str:
@@ -36,6 +41,9 @@ def main() -> None:
 
     (target / "input").mkdir()
     (target / "output").mkdir()
+    template = TEMPLATES[args.service]
+    draft = target / "output" / "draft.md"
+    draft.write_text(template.read_text(encoding="utf-8"), encoding="utf-8")
     (target / "notes.md").write_text(
         "\n".join(
             [
@@ -53,7 +61,7 @@ def main() -> None:
                 "",
                 "## Delivery",
                 "",
-                "Put final Markdown or files in `output/`.",
+                "Start from `output/draft.md`, then save the final customer version in `output/final.md`.",
                 "",
             ]
         ),
@@ -61,6 +69,7 @@ def main() -> None:
     )
 
     print(f"Created private order workspace: {target}")
+    print(f"Draft template: {draft}")
 
 
 if __name__ == "__main__":

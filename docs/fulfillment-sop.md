@@ -18,6 +18,14 @@ Supported services:
 
 The script creates an `orders/` folder, which is ignored by git.
 
+It also copies a matching draft template to:
+
+```text
+orders/<order-id>/output/draft.md
+```
+
+Use `draft.md` while working and save the customer-ready version as `final.md`.
+
 ## RMB 1.99: Paper Reading Brief
 
 Input:
@@ -42,6 +50,8 @@ Output:
 
 Use sample: `deliverables/paper-reading-brief/sample.md`.
 
+Use template: `delivery-templates/paper-reading-brief.md`.
+
 ## RMB 3.99: Citation Support Audit
 
 Input:
@@ -65,6 +75,8 @@ Output:
 
 Use sample: `deliverables/citation-audit/sample.md`.
 
+Use template: `delivery-templates/citation-support-audit.md`.
+
 ## RMB 5.99: Reproducibility Package Audit
 
 Input:
@@ -86,6 +98,8 @@ Output:
 - Draft code and data availability statements.
 
 Use sample: `deliverables/reproducibility-audit/sample.md`.
+
+Use template: `delivery-templates/reproducibility-package-audit.md`.
 
 ## Revision Policy
 

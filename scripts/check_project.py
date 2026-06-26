@@ -5,6 +5,7 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
+PRIVATE_DIRS = {"orders", "customer-files", "private-deliveries", ".git"}
 
 REQUIRED_PATHS = [
     ".codex-plugin/plugin.json",
@@ -20,6 +21,7 @@ REQUIRED_PATHS = [
     "templates/reproducibility-package/checklist.md",
     "premium-templates/README.md",
     "field-packs/README.md",
+    "docs/customer-guide.zh-CN.md",
     "docs/getting-started.md",
     "docs/customer-delivery-flow.md",
     "docs/fulfillment-sop.md",
@@ -31,6 +33,9 @@ REQUIRED_PATHS = [
     "assets/payments/wechat-qr.png",
     "premium-templates/order-form.md",
     "scripts/create_order_workspace.py",
+    "delivery-templates/paper-reading-brief.md",
+    "delivery-templates/citation-support-audit.md",
+    "delivery-templates/reproducibility-package-audit.md",
     "deliverables/paper-reading-brief/sample.md",
     "deliverables/citation-audit/sample.md",
     "deliverables/reproducibility-audit/sample.md",
@@ -63,6 +68,8 @@ def main() -> None:
 
     todo_hits: list[str] = []
     for path in ROOT.rglob("*"):
+        if any(part in PRIVATE_DIRS for part in path.relative_to(ROOT).parts):
+            continue
         if path.is_file() and path.suffix.lower() in {".md", ".yaml", ".json", ".py"}:
             text = path.read_text(encoding="utf-8", errors="ignore")
             todo_marker = "[" + "TODO"

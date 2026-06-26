@@ -60,7 +60,7 @@ For local fulfillment, create a private order workspace:
 python scripts\create_order_workspace.py --service paper-reading --buyer buyer-name
 ```
 
-Customer materials should stay inside `orders/`, which is ignored by git.
+Customer materials should stay inside `orders/`, which is ignored by git. The script also creates `output/draft.md` from the matching delivery template.
 
 Current public contact:
 

@@ -51,6 +51,7 @@ Start open source, monetize depth:
 
 See:
 
+- `docs/customer-guide.zh-CN.md` for Chinese customer ordering instructions.
 - `docs/getting-started.md` for the exact steps to run and launch the project.
 - `docs/customer-delivery-flow.md` for lead-to-delivery operations.
 - `docs/fulfillment-sop.md` for service execution steps.
@@ -94,6 +95,10 @@ Sample deliverables:
 - `deliverables/paper-reading-brief/sample.md`
 - `deliverables/citation-audit/sample.md`
 - `deliverables/reproducibility-audit/sample.md`
+
+Chinese order guide:
+
+- `docs/customer-guide.zh-CN.md`
 
 ## Quick start
 
