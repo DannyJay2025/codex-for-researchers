@@ -1,0 +1,4 @@
+interface:
+  display_name: "Reproducibility Packager"
+  short_description: "Audit research artifacts for submission."
+  default_prompt: "Use this skill to audit a project folder and produce a manuscript-ready reproducibility package checklist."

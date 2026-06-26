@@ -1,0 +1,4 @@
+interface:
+  display_name: "Manuscript Polisher"
+  short_description: "Polish academic prose while preserving scientific claims."
+  default_prompt: "Use this skill to revise manuscript sections for clarity, structure, and journal-ready academic English."

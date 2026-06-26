@@ -1,0 +1,4 @@
+interface:
+  display_name: "Research Paper Reader"
+  short_description: "Read, translate, and structure research papers with Codex."
+  default_prompt: "Use this skill to turn a paper PDF, DOI, abstract, or pasted text into a source-grounded reading brief."

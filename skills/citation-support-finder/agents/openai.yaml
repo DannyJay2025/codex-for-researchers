@@ -1,0 +1,4 @@
+interface:
+  display_name: "Citation Support Finder"
+  short_description: "Find and verify literature support for manuscript claims."
+  default_prompt: "Use this skill to split manuscript claims and produce citation search plans, candidate references, and claim-to-source tables."

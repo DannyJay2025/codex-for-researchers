@@ -1,0 +1,22 @@
+{
+  "name": "codex-for-researchers",
+  "version": "0.1.0",
+  "description": "Codex workflows for researchers: paper reading, citation support, manuscript polishing, and reproducibility packaging.",
+  "author": {
+    "name": "Danny Jay"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Codex for Researchers",
+    "shortDescription": "Research workflows powered by Codex.",
+    "longDescription": "A local Codex plugin for academic reading, citation mapping, manuscript polishing, and reproducibility package preparation.",
+    "developerName": "Danny Jay",
+    "category": "Productivity",
+    "capabilities": [
+      "Research",
+      "Writing",
+      "Documentation"
+    ],
+    "defaultPrompt": "Help me use Codex for Researchers on a paper, manuscript, citation task, or reproducibility package."
+  }
+}
