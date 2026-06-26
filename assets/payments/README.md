@@ -14,6 +14,10 @@ This project is configured for a public payment QR code. Save the image here:
 assets/payments/wechat-qr.png
 ```
 
+Current file:
+
+![WeChat payment QR code](wechat-qr.png)
+
 Public contact:
 
 ```text

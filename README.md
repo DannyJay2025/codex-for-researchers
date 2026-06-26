@@ -54,6 +54,10 @@ Public GitHub repository:
 https://github.com/DannyJay2025/codex-for-researchers
 ```
 
+WeChat payment QR code:
+
+![WeChat payment QR code](assets/payments/wechat-qr.png)
+
 ## Quick start
 
 This is a Codex workflow pack, not a web app. There is no dev server to start.

@@ -37,6 +37,8 @@ assets/payments/wechat-qr.png
 
 The QR code is intended to be public for this project. Add the image file at the path above before publishing the first paid version.
 
+![WeChat payment QR code](../assets/payments/wechat-qr.png)
+
 Suggested buyer instructions:
 
 ```markdown

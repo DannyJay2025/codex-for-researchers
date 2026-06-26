@@ -25,6 +25,7 @@ REQUIRED_PATHS = [
     "docs/service-offers.md",
     "docs/premium-access.md",
     "assets/payments/README.md",
+    "assets/payments/wechat-qr.png",
     "premium-templates/order-form.md",
 ]
 
