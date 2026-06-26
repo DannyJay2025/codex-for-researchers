@@ -1,0 +1,35 @@
+name: Paid order request
+description: Request a low-cost paid research workflow before moving to WeChat payment.
+title: "[Order]: "
+labels: ["order-request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please do not paste confidential manuscripts, unpublished data, payment screenshots, or private reviewer comments into a public GitHub issue. Use this only for non-sensitive order coordination.
+  - type: dropdown
+    id: service
+    attributes:
+      label: Service
+      options:
+        - RMB 1.99 paper reading brief
+        - RMB 3.99 citation support audit
+        - RMB 5.99 reproducibility package audit
+        - Custom lab workflow
+    validations:
+      required: true
+  - type: input
+    id: contact
+    attributes:
+      label: Preferred contact
+      description: WeChat ID or email. You may also add WeChat zhiyanaishe directly.
+      placeholder: WeChat or email
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Non-sensitive scope summary
+      description: Briefly describe the paper, paragraph, or project without confidential content.
+    validations:
+      required: true

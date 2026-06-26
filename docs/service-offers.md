@@ -33,6 +33,10 @@ Includes:
 - Unsupported or overbroad claim list.
 - Safer wording suggestions.
 
+Sample output:
+
+- `deliverables/citation-audit/sample.md`
+
 Not included:
 
 - Full systematic review.
@@ -50,6 +54,10 @@ Includes:
 - Code/data availability statement drafts.
 - Reproducibility checklist.
 
+Sample output:
+
+- `deliverables/reproducibility-audit/sample.md`
+
 ### Private Lab Plugin
 
 For labs that want reusable Codex workflows.
@@ -60,6 +68,12 @@ Includes:
 - Field-specific terminology and checklist references.
 - Private template pack.
 - Onboarding prompts for students and collaborators.
+
+## Fast Sample Outputs
+
+- Paper reading brief: `deliverables/paper-reading-brief/sample.md`
+- Citation support audit: `deliverables/citation-audit/sample.md`
+- Reproducibility package audit: `deliverables/reproducibility-audit/sample.md`
 
 ## Delivery Rules
 

@@ -54,6 +54,14 @@ Use `premium-templates/order-form.md` to collect:
 - payment screenshot
 - delivery method
 
+For local fulfillment, create a private order workspace:
+
+```powershell
+python scripts\create_order_workspace.py --service paper-reading --buyer buyer-name
+```
+
+Customer materials should stay inside `orders/`, which is ignored by git.
+
 Current public contact:
 
 ```text

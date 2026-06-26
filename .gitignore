@@ -11,6 +11,9 @@ build/
 *.egg-info/
 outputs/
 tmp/
+orders/
+customer-files/
+private-deliveries/
 *.pdf
 *.docx
 *.pptx

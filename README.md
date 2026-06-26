@@ -1,5 +1,9 @@
 # Codex for Researchers
 
+Low-cost Codex research workflows for paper reading, citation checks, and reproducibility audits.
+
+中文入口：加微信 `zhiyanaishe`，扫码付款后发送论文、段落或项目仓库信息。当前引流价：论文精读 `1.99 元`，引用审计 `3.99 元`，复现包审计 `5.99 元`。
+
 Codex for Researchers is a GitHub-first Codex workflow pack for researchers, graduate students, labs, and technical founders who need help reading papers, improving manuscripts, mapping citations, and preparing reproducibility packages.
 
 The project is intentionally lightweight: it depends on Codex workflows and local files first. Live web or literature search can be used when available, but the core value is repeatable research work instructions packaged as Codex skills.
@@ -12,6 +16,22 @@ The project is intentionally lightweight: it depends on Codex workflows and loca
 - `reproducibility-packager`: audit code, data, methods, and availability statements before submission.
 - `templates/`: reusable outputs for reading briefs, citation maps, polishing requests, and reproducibility packages.
 - `scripts/check_project.py`: basic repo health checks before publishing.
+
+## Buy a low-cost workflow
+
+| Service | Price | You send | You receive |
+| --- | --- | --- | --- |
+| Paper reading brief | RMB 1.99 | One paper link, abstract, or PDF excerpt | A structured Markdown reading brief |
+| Citation support audit | RMB 3.99 | One manuscript paragraph or claim list | A claim-to-citation risk table |
+| Reproducibility package audit | RMB 5.99 | One repo/file inventory or project folder summary | A reproducibility checklist and risk report |
+
+Order flow:
+
+1. Add WeChat `zhiyanaishe`.
+2. Say which service you want.
+3. Pay with the QR code below.
+4. Send payment screenshot and materials.
+5. Receive the deliverable as Markdown text or a file.
 
 ## Who this is for
 
@@ -32,9 +52,12 @@ Start open source, monetize depth:
 See:
 
 - `docs/getting-started.md` for the exact steps to run and launch the project.
+- `docs/customer-delivery-flow.md` for lead-to-delivery operations.
+- `docs/fulfillment-sop.md` for service execution steps.
 - `docs/monetization-roadmap.md` for the product ladder.
 - `docs/service-offers.md` for service packages and starter pricing.
 - `docs/premium-access.md` for WeChat payment and manual premium delivery.
+- `docs/privacy-and-disclaimer.md` for customer-data handling and boundaries.
 - `premium-templates/` for the paid template catalog.
 - `field-packs/` for research-domain expansion packs.
 
@@ -65,6 +88,12 @@ Launch prices:
 | Paper reading brief | RMB 1.99 |
 | Citation support audit | RMB 3.99 |
 | Reproducibility package audit | RMB 5.99 |
+
+Sample deliverables:
+
+- `deliverables/paper-reading-brief/sample.md`
+- `deliverables/citation-audit/sample.md`
+- `deliverables/reproducibility-audit/sample.md`
 
 ## Quick start
 

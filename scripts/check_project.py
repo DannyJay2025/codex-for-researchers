@@ -21,12 +21,22 @@ REQUIRED_PATHS = [
     "premium-templates/README.md",
     "field-packs/README.md",
     "docs/getting-started.md",
+    "docs/customer-delivery-flow.md",
+    "docs/fulfillment-sop.md",
     "docs/monetization-roadmap.md",
     "docs/service-offers.md",
     "docs/premium-access.md",
+    "docs/privacy-and-disclaimer.md",
     "assets/payments/README.md",
     "assets/payments/wechat-qr.png",
     "premium-templates/order-form.md",
+    "scripts/create_order_workspace.py",
+    "deliverables/paper-reading-brief/sample.md",
+    "deliverables/citation-audit/sample.md",
+    "deliverables/reproducibility-audit/sample.md",
+    ".github/workflows/ci.yml",
+    ".github/ISSUE_TEMPLATE/order_request.yml",
+    ".github/ISSUE_TEMPLATE/bug_report.yml",
 ]
 
 
