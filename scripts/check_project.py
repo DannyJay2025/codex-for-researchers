@@ -22,6 +22,8 @@ REQUIRED_PATHS = [
     "premium-templates/README.md",
     "field-packs/README.md",
     "docs/customer-guide.zh-CN.md",
+    "docs/index.html",
+    "docs/assets/wechat-qr.png",
     "docs/getting-started.md",
     "docs/customer-delivery-flow.md",
     "docs/fulfillment-sop.md",
@@ -66,11 +68,16 @@ def main() -> None:
     if manifest.get("skills") != "./skills/":
         fail("Plugin manifest must point skills to ./skills/")
 
+    landing = (ROOT / "docs" / "index.html").read_text(encoding="utf-8")
+    for required_text in ["1.99", "3.99", "5.99", "zhiyanaishe", "assets/wechat-qr.png"]:
+        if required_text not in landing:
+            fail(f"Landing page is missing required text: {required_text}")
+
     todo_hits: list[str] = []
     for path in ROOT.rglob("*"):
         if any(part in PRIVATE_DIRS for part in path.relative_to(ROOT).parts):
             continue
-        if path.is_file() and path.suffix.lower() in {".md", ".yaml", ".json", ".py"}:
+        if path.is_file() and path.suffix.lower() in {".html", ".md", ".yaml", ".json", ".py"}:
             text = path.read_text(encoding="utf-8", errors="ignore")
             todo_marker = "[" + "TODO"
             todo_label = "TODO" + ":"

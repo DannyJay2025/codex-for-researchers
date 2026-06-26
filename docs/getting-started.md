@@ -81,6 +81,20 @@ git remote add origin https://github.com/DannyJay2025/codex-for-researchers.git
 git push -u origin main
 ```
 
+## 4.1 Enable The Landing Page
+
+Use GitHub Pages with:
+
+- Source: deploy from branch
+- Branch: `main`
+- Folder: `/docs`
+
+Expected public URL:
+
+```text
+https://dannyjay2025.github.io/codex-for-researchers/
+```
+
 ## 5. Create The Paid Delivery Channel
 
 Start simple:

@@ -1,0 +1,293 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Codex for Researchers</title>
+    <meta name="description" content="低价 Codex 科研工作流：论文精读、引用审计、复现包审计。">
+    <style>
+      :root {
+        --ink: #172026;
+        --muted: #59636b;
+        --line: #d9e1e7;
+        --paper: #fbfcfd;
+        --green: #13b86a;
+        --blue: #1d4ed8;
+        --amber: #b45309;
+      }
+
+      * { box-sizing: border-box; }
+
+      body {
+        margin: 0;
+        color: var(--ink);
+        background: var(--paper);
+        font-family: Arial, "Microsoft YaHei", sans-serif;
+        line-height: 1.55;
+      }
+
+      a { color: var(--blue); }
+
+      .wrap {
+        width: min(1100px, calc(100% - 32px));
+        margin: 0 auto;
+      }
+
+      header, footer {
+        border-bottom: 1px solid var(--line);
+        background: #ffffff;
+      }
+
+      footer {
+        border-top: 1px solid var(--line);
+        border-bottom: 0;
+        padding: 24px 0;
+        color: var(--muted);
+        font-size: 14px;
+      }
+
+      .nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        min-height: 64px;
+        gap: 16px;
+      }
+
+      .brand {
+        font-weight: 700;
+        font-size: 18px;
+      }
+
+      .nav-links {
+        display: flex;
+        gap: 14px;
+        flex-wrap: wrap;
+        font-size: 14px;
+      }
+
+      .hero {
+        padding: 44px 0 30px;
+        background: #ffffff;
+      }
+
+      .hero-grid {
+        display: grid;
+        grid-template-columns: minmax(0, 1.4fr) minmax(280px, 0.8fr);
+        gap: 34px;
+        align-items: start;
+      }
+
+      h1 {
+        margin: 0 0 14px;
+        font-size: clamp(34px, 5vw, 58px);
+        line-height: 1.08;
+        letter-spacing: 0;
+      }
+
+      .lead {
+        max-width: 720px;
+        color: var(--muted);
+        font-size: 18px;
+      }
+
+      .quick, .steps, .samples, .trust {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 14px;
+      }
+
+      .quick { margin-top: 26px; }
+
+      .offer, .panel, .payment {
+        border: 1px solid var(--line);
+        background: #ffffff;
+        border-radius: 8px;
+      }
+
+      .offer {
+        padding: 16px;
+        min-height: 140px;
+      }
+
+      .offer strong {
+        display: block;
+        font-size: 28px;
+        margin-bottom: 4px;
+      }
+
+      .offer span {
+        display: block;
+        color: var(--muted);
+        font-size: 14px;
+      }
+
+      .payment { padding: 18px; }
+
+      .payment img {
+        display: block;
+        width: 100%;
+        max-width: 320px;
+        height: auto;
+        margin: 0 auto 14px;
+        border-radius: 6px;
+      }
+
+      .wechat {
+        display: block;
+        padding: 12px;
+        border-radius: 6px;
+        background: #ecfdf5;
+        color: #064e3b;
+        font-weight: 700;
+        text-align: center;
+      }
+
+      section { padding: 34px 0; }
+
+      h2 {
+        margin: 0 0 14px;
+        font-size: 26px;
+      }
+
+      .panel { padding: 18px; }
+
+      .panel h3 {
+        margin: 0 0 8px;
+        font-size: 18px;
+      }
+
+      .panel p {
+        margin: 0;
+        color: var(--muted);
+      }
+
+      .note {
+        border-left: 4px solid var(--amber);
+        background: #fff7ed;
+        padding: 14px 16px;
+        color: #593409;
+      }
+
+      @media (max-width: 820px) {
+        .hero-grid, .quick, .steps, .samples, .trust {
+          grid-template-columns: 1fr;
+        }
+
+        .nav {
+          align-items: flex-start;
+          flex-direction: column;
+          padding: 14px 0;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="wrap nav">
+        <div class="brand">Codex for Researchers</div>
+        <nav class="nav-links" aria-label="Primary">
+          <a href="customer-guide.zh-CN.md">中文下单说明</a>
+          <a href="https://github.com/DannyJay2025/codex-for-researchers/blob/main/deliverables/paper-reading-brief/sample.md">交付样例</a>
+          <a href="https://github.com/DannyJay2025/codex-for-researchers">GitHub</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="wrap hero-grid">
+          <div>
+            <h1>低价科研工作流，先把论文和项目整理清楚。</h1>
+            <p class="lead">面向学生、科研作者和小团队：用 Codex 工作流完成论文精读、引用审计、复现包审计。付款后通过微信交付 Markdown 结果。</p>
+            <div class="quick" aria-label="Launch offers">
+              <div class="offer">
+                <strong>1.99 元</strong>
+                <span>论文精读：发送论文链接、摘要或片段，收到结构化阅读笔记。</span>
+              </div>
+              <div class="offer">
+                <strong>3.99 元</strong>
+                <span>引用审计：发送段落或 claim，收到 claim-to-citation 风险表。</span>
+              </div>
+              <div class="offer">
+                <strong>5.99 元</strong>
+                <span>复现包审计：发送仓库或文件清单，收到复现检查表。</span>
+              </div>
+            </div>
+          </div>
+          <aside class="payment" aria-label="WeChat payment">
+            <img src="assets/wechat-qr.png" alt="WeChat payment QR code">
+            <span class="wechat">微信：zhiyanaishe</span>
+          </aside>
+        </div>
+      </section>
+
+      <section>
+        <div class="wrap">
+          <h2>怎么下单</h2>
+          <div class="steps">
+            <div class="panel">
+              <h3>1. 加微信</h3>
+              <p>发送你要买的服务：论文精读、引用审计或复现包审计。</p>
+            </div>
+            <div class="panel">
+              <h3>2. 付款发材料</h3>
+              <p>扫码付款后发送截图，以及论文、段落、claim 或项目说明。</p>
+            </div>
+            <div class="panel">
+              <h3>3. 收到交付</h3>
+              <p>收到 Markdown 结果，可用于组会、写作准备或投稿前检查。</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="wrap">
+          <h2>你会收到什么</h2>
+          <div class="samples">
+            <div class="panel">
+              <h3>论文精读</h3>
+              <p>一句话主旨、方法地图、关键证据、局限和后续问题。</p>
+            </div>
+            <div class="panel">
+              <h3>引用审计</h3>
+              <p>原子 claim 拆分、证据需求、风险标记和更稳妥写法。</p>
+            </div>
+            <div class="panel">
+              <h3>复现包审计</h3>
+              <p>README、环境、代码入口、数据、图表和可用性声明检查。</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="wrap trust">
+          <div class="panel">
+            <h3>公开样例</h3>
+            <p><a href="https://github.com/DannyJay2025/codex-for-researchers/blob/main/deliverables/paper-reading-brief/sample.md">论文精读样例</a>、<a href="https://github.com/DannyJay2025/codex-for-researchers/blob/main/deliverables/citation-audit/sample.md">引用审计样例</a>、<a href="https://github.com/DannyJay2025/codex-for-researchers/blob/main/deliverables/reproducibility-audit/sample.md">复现审计样例</a></p>
+          </div>
+          <div class="panel">
+            <h3>开源流程</h3>
+            <p>工作流、模板和检查脚本都在 GitHub，便于查看和复用。</p>
+          </div>
+          <div class="panel">
+            <h3>隐私边界</h3>
+            <p>不公开客户论文、付款截图、未发表数据或私有交付件。</p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="wrap">
+          <div class="note">提示：这是 AI 辅助科研工作流草稿，不保证录用，不替代人工核对。投稿前请自行验证引用、数据、统计和期刊要求。</div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="wrap">Codex for Researchers · GitHub: DannyJay2025/codex-for-researchers</div>
+    </footer>
+  </body>
+</html>
