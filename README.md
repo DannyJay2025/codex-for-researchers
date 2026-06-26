@@ -58,6 +58,14 @@ WeChat payment QR code:
 
 ![WeChat payment QR code](assets/payments/wechat-qr.png)
 
+Launch prices:
+
+| Service | Price |
+| --- | --- |
+| Paper reading brief | RMB 1.99 |
+| Citation support audit | RMB 3.99 |
+| Reproducibility package audit | RMB 5.99 |
+
 ## Quick start
 
 This is a Codex workflow pack, not a web app. There is no dev server to start.

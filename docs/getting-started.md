@@ -87,9 +87,9 @@ Start simple:
 The easiest first offer is:
 
 ```text
-RMB 199: one paper reading brief
-RMB 699: citation support audit for one manuscript section
-RMB 999: reproducibility package audit for one repo
+RMB 1.99: one paper reading brief
+RMB 3.99: citation support audit for one manuscript section
+RMB 5.99: reproducibility package audit for one repo
 ```
 
 Do not sell everything at once. Start with one clear outcome, deliver it manually, then turn repeated work into premium templates.

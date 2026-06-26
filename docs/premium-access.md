@@ -54,11 +54,12 @@ Need premium templates or a private lab workflow?
 
 | Product | Price | Delivery |
 | --- | --- | --- |
+| Paper reading brief | RMB 1.99 | Markdown reading brief |
+| Citation support audit | RMB 3.99 | Claim-to-citation table |
+| Reproducibility audit | RMB 5.99 | Audit report and availability statements |
 | Single premium template pack | RMB 99-199 | Archive or private repo folder |
 | Full premium template bundle | RMB 299-699 | Private repo access |
 | One manuscript section polish | RMB 399-1499 | Markdown or DOCX-style output |
-| Citation support audit | RMB 699-2999 | Claim-to-citation table |
-| Reproducibility audit | RMB 999-4999 | Audit report and availability statements |
 | Lab custom workflow | RMB 6999+ | Private Codex plugin and templates |
 
 ## Manual Fulfillment Checklist

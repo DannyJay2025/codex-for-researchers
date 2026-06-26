@@ -6,10 +6,10 @@ These are starting-point offers for turning the open-source workflow pack into p
 
 | Offer | Deliverable | Typical turnaround | Starting price |
 | --- | --- | --- | --- |
-| Paper reading brief | Structured Markdown brief for one paper | 24-72 hours | RMB 199-699 |
-| Citation support audit | Claim-to-citation table plus risk notes | 3-7 days | RMB 699-2999 |
+| Paper reading brief | Structured Markdown brief for one paper | 24-72 hours | RMB 1.99 |
+| Citation support audit | Claim-to-citation table plus risk notes | 3-7 days | RMB 3.99 |
 | Manuscript polish | Revised section plus edit notes | 3-10 days | RMB 999-6999 |
-| Reproducibility package audit | Artifact inventory, blockers, availability statements | 3-10 days | RMB 999-4999 |
+| Reproducibility package audit | Artifact inventory, blockers, availability statements | 3-10 days | RMB 5.99 |
 | Lab Codex setup | Private skills, templates, and lab SOP references | 1-3 weeks | RMB 6999+ |
 
 ## How To Order
