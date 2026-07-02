@@ -24,7 +24,15 @@ It also copies a matching draft template to:
 orders/<order-id>/output/draft.md
 ```
 
-Use `draft.md` while working and save the customer-ready version as `final.md`.
+It also creates:
+
+```text
+orders/<order-id>/status.json
+orders/<order-id>/delivery-checklist.md
+orders/<order-id>/notes.md
+```
+
+Use `draft.md` while working and save the customer-ready version as `final.md`. Update `status.json` and complete `delivery-checklist.md` before sending the final result.
 
 ## RMB 1.99: Paper Reading Brief
 

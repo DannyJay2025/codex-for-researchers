@@ -1,0 +1,2 @@
+order_id,date,buyer_alias,service,price_rmb,status,due_date,materials_status,delivery_path,public_sample_consent,notes
+example-20260703,2026-07-03,buyer-a,paper-reading,1.99,lead,2026-07-06,waiting,,no,example row only

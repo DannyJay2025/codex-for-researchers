@@ -73,11 +73,13 @@ See:
 - `docs/getting-started.md` for the exact steps to run and launch the project.
 - `docs/customer-delivery-flow.md` for lead-to-delivery operations.
 - `docs/fulfillment-sop.md` for service execution steps.
+- `docs/order-ops-playbook.zh-CN.md` for order status, scope control, refunds, and daily operations.
 - `docs/monetization-roadmap.md` for the product ladder.
 - `docs/service-offers.md` for service packages and starter pricing.
 - `docs/premium-access.md` for WeChat payment and manual premium delivery.
 - `docs/privacy-and-disclaimer.md` for customer-data handling and boundaries.
 - `marketing/launch-posts.zh-CN.md` for copy-and-paste launch posts, private-chat closing scripts, and daily promotion rhythm.
+- `ops/order-tracker-template.csv` for a private local order tracker template.
 - `premium-templates/` for the paid template catalog.
 - `field-packs/` for research-domain expansion packs.
 
@@ -166,6 +168,7 @@ codex-for-researchers/
   premium-templates/
   field-packs/
   marketing/
+  ops/
   assets/
   docs/
     getting-started.md
