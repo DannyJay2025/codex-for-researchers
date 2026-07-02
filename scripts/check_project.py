@@ -24,6 +24,7 @@ REQUIRED_PATHS = [
     "docs/customer-guide.zh-CN.md",
     "docs/index.html",
     "docs/assets/wechat-qr.png",
+    "docs/.nojekyll",
     "docs/getting-started.md",
     "docs/customer-delivery-flow.md",
     "docs/fulfillment-sop.md",
