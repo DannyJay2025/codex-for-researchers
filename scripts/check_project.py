@@ -43,6 +43,7 @@ REQUIRED_PATHS = [
     "deliverables/citation-audit/sample.md",
     "deliverables/reproducibility-audit/sample.md",
     ".github/workflows/ci.yml",
+    ".github/workflows/pages.yml",
     ".github/ISSUE_TEMPLATE/order_request.yml",
     ".github/ISSUE_TEMPLATE/bug_report.yml",
 ]
