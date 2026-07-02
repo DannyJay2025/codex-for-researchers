@@ -46,6 +46,16 @@ REQUIRED_PATHS = [
     ".github/ISSUE_TEMPLATE/bug_report.yml",
 ]
 
+MOJIBAKE_MARKERS = (
+    "浣",
+    "璇",
+    "鏂",
+    "鍏",
+    "銆",
+    "€",
+    "�",
+)
+
 
 def fail(message: str) -> None:
     raise SystemExit(f"[FAIL] {message}")
@@ -72,6 +82,17 @@ def main() -> None:
     for required_text in ["1.99", "3.99", "5.99", "zhiyanaishe", "assets/wechat-qr.png"]:
         if required_text not in landing:
             fail(f"Landing page is missing required text: {required_text}")
+
+    chinese_paths = [
+        ROOT / "README.md",
+        ROOT / "docs" / "index.html",
+        ROOT / "docs" / "customer-guide.zh-CN.md",
+        ROOT / "docs" / "customer-delivery-flow.md",
+    ]
+    for path in chinese_paths:
+        text = path.read_text(encoding="utf-8")
+        if any(marker in text for marker in MOJIBAKE_MARKERS):
+            fail(f"Potential mojibake detected in {path.relative_to(ROOT)}")
 
     todo_hits: list[str] = []
     for path in ROOT.rglob("*"):

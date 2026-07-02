@@ -21,7 +21,6 @@ Send this when a buyer contacts you:
 
 ```text
 你好，我是 Codex for Researchers。
-
 请选择服务：
 1. 论文精读：1.99 元
 2. 引用审计：3.99 元
@@ -29,7 +28,7 @@ Send this when a buyer contacts you:
 
 付款后请发送：
 - 付款截图
-- 论文链接/摘要/段落/项目说明
+- 论文链接 / 摘要 / 段落 / 项目说明
 - 期望交付语言：中文 / 英文 / 中英双语
 - 是否允许我使用脱敏内容做公开案例：是 / 否
 ```
@@ -51,7 +50,7 @@ Do not promise real-time delivery until the workflow is stable.
 Ask:
 
 ```text
-如果这个结果有帮助，欢迎给 GitHub 仓库点 star，或者把这个项目转发给需要读论文/查引用/做复现检查的朋友。
+如果这个结果对你有帮助，欢迎给 GitHub 仓库点个 star，或者把这个项目转发给需要读论文、查引用或做复现检查的朋友。
 ```
 
 GitHub:
