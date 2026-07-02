@@ -79,7 +79,15 @@ def main() -> None:
         fail("Plugin manifest must point skills to ./skills/")
 
     landing = (ROOT / "docs" / "index.html").read_text(encoding="utf-8")
-    for required_text in ["1.99", "3.99", "5.99", "zhiyanaishe", "assets/wechat-qr.png"]:
+    for required_text in [
+        "1.99",
+        "3.99",
+        "5.99",
+        "zhiyanaishe",
+        "assets/wechat-qr.png",
+        "24-72",
+        "付款截图",
+    ]:
         if required_text not in landing:
             fail(f"Landing page is missing required text: {required_text}")
 

@@ -19,11 +19,11 @@ The project is intentionally lightweight: it depends on Codex workflows and loca
 
 ## Buy a low-cost workflow
 
-| Service | Price | You send | You receive |
-| --- | --- | --- | --- |
-| Paper reading brief | RMB 1.99 | One paper link, abstract, or PDF excerpt | A structured Markdown reading brief |
-| Citation support audit | RMB 3.99 | One manuscript paragraph or claim list | A claim-to-citation risk table |
-| Reproducibility package audit | RMB 5.99 | One repo/file inventory or project folder summary | A reproducibility checklist and risk report |
+| Service | Price | You send | You receive | Typical delivery |
+| --- | --- | --- | --- | --- |
+| Paper reading brief | RMB 1.99 | One paper link, abstract, or PDF excerpt | A structured Markdown reading brief | 24-72 hours |
+| Citation support audit | RMB 3.99 | One manuscript paragraph or claim list | A claim-to-citation risk table | 24-72 hours |
+| Reproducibility package audit | RMB 5.99 | One repo/file inventory or project folder summary | A reproducibility checklist and risk report | 24-72 hours |
 
 Order flow:
 
@@ -32,6 +32,16 @@ Order flow:
 3. Pay with the QR code below.
 4. Send payment screenshot and materials.
 5. Receive the deliverable as Markdown text or a file.
+
+Send this with the order to reduce back-and-forth:
+
+```text
+Service: paper reading brief / citation support audit / reproducibility package audit
+Language: Chinese / English / bilingual
+Materials: link, abstract, paragraph, or repo summary
+Use case: journal club / writing / submission check / reproducibility cleanup
+Permission to anonymize into a public sample: yes / no
+```
 
 ## Who this is for
 
