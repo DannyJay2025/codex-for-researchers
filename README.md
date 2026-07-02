@@ -77,6 +77,7 @@ See:
 - `docs/service-offers.md` for service packages and starter pricing.
 - `docs/premium-access.md` for WeChat payment and manual premium delivery.
 - `docs/privacy-and-disclaimer.md` for customer-data handling and boundaries.
+- `marketing/launch-posts.zh-CN.md` for copy-and-paste launch posts, private-chat closing scripts, and daily promotion rhythm.
 - `premium-templates/` for the paid template catalog.
 - `field-packs/` for research-domain expansion packs.
 
@@ -164,6 +165,7 @@ codex-for-researchers/
   templates/
   premium-templates/
   field-packs/
+  marketing/
   assets/
   docs/
     getting-started.md

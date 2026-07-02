@@ -32,6 +32,7 @@ REQUIRED_PATHS = [
     "docs/service-offers.md",
     "docs/premium-access.md",
     "docs/privacy-and-disclaimer.md",
+    "marketing/launch-posts.zh-CN.md",
     "assets/payments/README.md",
     "assets/payments/wechat-qr.png",
     "premium-templates/order-form.md",
