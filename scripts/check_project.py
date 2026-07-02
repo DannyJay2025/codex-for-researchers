@@ -87,6 +87,7 @@ def main() -> None:
         "assets/wechat-qr.png",
         "24-72",
         "付款截图",
+        "一次澄清回复",
     ]:
         if required_text not in landing:
             fail(f"Landing page is missing required text: {required_text}")

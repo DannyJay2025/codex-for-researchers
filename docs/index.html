@@ -91,7 +91,7 @@
         font-size: 18px;
       }
 
-      .quick, .steps, .samples, .trust {
+      .quick, .steps, .samples, .trust, .faq {
         display: grid;
         grid-template-columns: repeat(3, minmax(0, 1fr));
         gap: 14px;
@@ -170,7 +170,7 @@
       }
 
       @media (max-width: 820px) {
-        .hero-grid, .quick, .steps, .samples, .trust {
+        .hero-grid, .quick, .steps, .samples, .trust, .faq {
           grid-template-columns: 1fr;
         }
 
@@ -312,6 +312,26 @@
           <div class="panel">
             <h3>交付形式</h3>
             <p>默认交付 Markdown 文本或文件，便于直接继续改写、整理和复查。</p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="wrap">
+          <h2>交付时效和常见问题</h2>
+          <div class="faq">
+            <div class="panel">
+              <h3>多久能收到</h3>
+              <p>当前是手工交付流程。论文精读、引用审计、复现包审计默认在 24-72 小时内交付，不承诺实时返稿。</p>
+            </div>
+            <div class="panel">
+              <h3>需要发什么</h3>
+              <p>付款截图，加上论文链接、摘要、段落、claim 或项目说明即可。可备注中文、英文或中英双语交付。</p>
+            </div>
+            <div class="panel">
+              <h3>改到什么程度</h3>
+              <p>启动价包含一次澄清回复，不包含无限次改写或扩展范围。若材料或目标变化较大，需要重新下单。</p>
+            </div>
           </div>
         </div>
       </section>

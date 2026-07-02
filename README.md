@@ -43,6 +43,13 @@ Use case: journal club / writing / submission check / reproducibility cleanup
 Permission to anonymize into a public sample: yes / no
 ```
 
+Delivery expectations:
+
+- Normal turnaround for the launch offers is 24-72 hours.
+- Buyers can request Chinese, English, or bilingual output.
+- Launch pricing includes one clarification reply, not unlimited rewrites.
+- A material scope change after payment should be handled as a new order.
+
 ## Who this is for
 
 - Researchers preparing manuscripts, rebuttals, grants, or journal club notes.
