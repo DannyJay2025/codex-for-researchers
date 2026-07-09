@@ -19,6 +19,7 @@ The project is intentionally lightweight: it depends on Codex workflows and loca
 - `scripts/check_delivery.py`: pre-send Markdown delivery quality checks.
 - `scripts/summarize_growth.py`: private funnel and revenue summary for weekly review.
 - `scripts/suggest_offer.py`: post-delivery upsell suggestions from the offer ladder.
+- `scripts/suggest_reply.py`: copy-ready WeChat replies for common lead scenarios.
 
 ## Buy a low-cost workflow
 
@@ -80,6 +81,7 @@ See:
 - `docs/delivery-quality.md` for the pre-send delivery quality gate.
 - `docs/growth-review-playbook.zh-CN.md` for weekly funnel, revenue, and channel review.
 - `docs/upsell-playbook.zh-CN.md` for turning entry orders into repeat packages and custom work.
+- `docs/lead-triage-playbook.zh-CN.md` for consultation triage and WeChat reply scripts.
 - `docs/order-ops-playbook.zh-CN.md` for order status, scope control, refunds, and daily operations.
 - `docs/monetization-roadmap.md` for the product ladder.
 - `docs/service-offers.md` for service packages and starter pricing.
@@ -89,6 +91,7 @@ See:
 - `ops/order-tracker-template.csv` for a private local order tracker template.
 - `ops/growth-metrics-template.csv` for private funnel and revenue tracking.
 - `ops/offer-ladder.csv` for entry, repeat, and custom service packaging.
+- `ops/lead-reply-library.tsv` for public-safe WeChat reply templates.
 - `premium-templates/` for the paid template catalog.
 - `field-packs/` for research-domain expansion packs.
 

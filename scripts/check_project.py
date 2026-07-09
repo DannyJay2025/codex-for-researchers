@@ -32,6 +32,7 @@ REQUIRED_PATHS = [
     "docs/delivery-quality.md",
     "docs/growth-review-playbook.zh-CN.md",
     "docs/upsell-playbook.zh-CN.md",
+    "docs/lead-triage-playbook.zh-CN.md",
     "docs/order-ops-playbook.zh-CN.md",
     "docs/monetization-roadmap.md",
     "docs/service-offers.md",
@@ -42,6 +43,7 @@ REQUIRED_PATHS = [
     "ops/order-tracker-template.csv",
     "ops/growth-metrics-template.csv",
     "ops/offer-ladder.csv",
+    "ops/lead-reply-library.tsv",
     "assets/payments/README.md",
     "assets/payments/wechat-qr.png",
     "premium-templates/order-form.md",
@@ -49,6 +51,7 @@ REQUIRED_PATHS = [
     "scripts/check_delivery.py",
     "scripts/summarize_growth.py",
     "scripts/suggest_offer.py",
+    "scripts/suggest_reply.py",
     "delivery-templates/paper-reading-brief.md",
     "delivery-templates/citation-support-audit.md",
     "delivery-templates/reproducibility-package-audit.md",
@@ -115,6 +118,7 @@ def main() -> None:
         ROOT / "docs" / "faq.zh-CN.md",
         ROOT / "docs" / "growth-review-playbook.zh-CN.md",
         ROOT / "docs" / "upsell-playbook.zh-CN.md",
+        ROOT / "docs" / "lead-triage-playbook.zh-CN.md",
         ROOT / "docs" / "customer-delivery-flow.md",
     ]
     for path in chinese_paths:

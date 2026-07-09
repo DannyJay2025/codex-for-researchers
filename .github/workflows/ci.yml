@@ -28,5 +28,10 @@ jobs:
           python scripts/suggest_offer.py --after-service paper-reading
           python scripts/suggest_offer.py --after-service citation-audit
           python scripts/suggest_offer.py --after-service repro-audit
+      - name: Run lead reply smoke test
+        run: |
+          python scripts/suggest_reply.py --list
+          python scripts/suggest_reply.py --scenario opening
+          python scripts/suggest_reply.py --scenario not_allowed
       - name: Run reproducibility audit smoke test
         run: python skills/reproducibility-packager/scripts/audit_reproducibility.py .
