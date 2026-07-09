@@ -21,5 +21,7 @@ jobs:
           python scripts/check_delivery.py deliverables/paper-reading-brief/sample.md --service paper-reading
           python scripts/check_delivery.py deliverables/citation-audit/sample.md --service citation-audit
           python scripts/check_delivery.py deliverables/reproducibility-audit/sample.md --service repro-audit
+      - name: Run growth metrics smoke test
+        run: python scripts/summarize_growth.py ops/growth-metrics-template.csv
       - name: Run reproducibility audit smoke test
         run: python skills/reproducibility-packager/scripts/audit_reproducibility.py .

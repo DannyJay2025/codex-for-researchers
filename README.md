@@ -17,6 +17,7 @@ The project is intentionally lightweight: it depends on Codex workflows and loca
 - `templates/`: reusable outputs for reading briefs, citation maps, polishing requests, and reproducibility packages.
 - `scripts/check_project.py`: basic repo health checks before publishing.
 - `scripts/check_delivery.py`: pre-send Markdown delivery quality checks.
+- `scripts/summarize_growth.py`: private funnel and revenue summary for weekly review.
 
 ## Buy a low-cost workflow
 
@@ -76,6 +77,7 @@ See:
 - `docs/customer-delivery-flow.md` for lead-to-delivery operations.
 - `docs/fulfillment-sop.md` for service execution steps.
 - `docs/delivery-quality.md` for the pre-send delivery quality gate.
+- `docs/growth-review-playbook.zh-CN.md` for weekly funnel, revenue, and channel review.
 - `docs/order-ops-playbook.zh-CN.md` for order status, scope control, refunds, and daily operations.
 - `docs/monetization-roadmap.md` for the product ladder.
 - `docs/service-offers.md` for service packages and starter pricing.
@@ -83,6 +85,7 @@ See:
 - `docs/privacy-and-disclaimer.md` for customer-data handling and boundaries.
 - `marketing/launch-posts.zh-CN.md` for copy-and-paste launch posts, private-chat closing scripts, and daily promotion rhythm.
 - `ops/order-tracker-template.csv` for a private local order tracker template.
+- `ops/growth-metrics-template.csv` for private funnel and revenue tracking.
 - `premium-templates/` for the paid template catalog.
 - `field-packs/` for research-domain expansion packs.
 

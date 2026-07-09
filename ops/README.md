@@ -7,9 +7,11 @@ Do not store real customer names, WeChat IDs, manuscripts, payment screenshots, 
 Files:
 
 - `order-tracker-template.csv`: copy this to `orders/order-tracker.csv` for private order tracking.
+- `growth-metrics-template.csv`: copy this to `orders/growth-metrics.csv` for private funnel and revenue tracking.
 
 Related docs:
 
+- `docs/growth-review-playbook.zh-CN.md`
 - `docs/order-ops-playbook.zh-CN.md`
 - `docs/fulfillment-sop.md`
 - `marketing/launch-posts.zh-CN.md`
