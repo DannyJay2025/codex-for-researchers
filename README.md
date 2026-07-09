@@ -69,6 +69,7 @@ Start open source, monetize depth:
 See:
 
 - `docs/customer-guide.zh-CN.md` for Chinese customer ordering instructions.
+- `docs/faq.zh-CN.md` for buyer objections, refund boundaries, privacy expectations, and scope fit.
 - `docs/index.html` for the public GitHub Pages landing page.
 - `docs/getting-started.md` for the exact steps to run and launch the project.
 - `docs/customer-delivery-flow.md` for lead-to-delivery operations.

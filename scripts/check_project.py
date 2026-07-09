@@ -22,6 +22,7 @@ REQUIRED_PATHS = [
     "premium-templates/README.md",
     "field-packs/README.md",
     "docs/customer-guide.zh-CN.md",
+    "docs/faq.zh-CN.md",
     "docs/index.html",
     "docs/assets/wechat-qr.png",
     "docs/.nojekyll",
@@ -91,6 +92,7 @@ def main() -> None:
         "5.99",
         "zhiyanaishe",
         "assets/wechat-qr.png",
+        "faq.zh-CN.md",
         "24-72",
         "付款截图",
         "一次澄清回复",
@@ -102,6 +104,7 @@ def main() -> None:
         ROOT / "README.md",
         ROOT / "docs" / "index.html",
         ROOT / "docs" / "customer-guide.zh-CN.md",
+        ROOT / "docs" / "faq.zh-CN.md",
         ROOT / "docs" / "customer-delivery-flow.md",
     ]
     for path in chinese_paths:
