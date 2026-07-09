@@ -8,10 +8,12 @@ Files:
 
 - `order-tracker-template.csv`: copy this to `orders/order-tracker.csv` for private order tracking.
 - `growth-metrics-template.csv`: copy this to `orders/growth-metrics.csv` for private funnel and revenue tracking.
+- `offer-ladder.csv`: public-safe entry, repeat, and custom offer ladder used by `scripts/suggest_offer.py`.
 
 Related docs:
 
 - `docs/growth-review-playbook.zh-CN.md`
+- `docs/upsell-playbook.zh-CN.md`
 - `docs/order-ops-playbook.zh-CN.md`
 - `docs/fulfillment-sop.md`
 - `marketing/launch-posts.zh-CN.md`

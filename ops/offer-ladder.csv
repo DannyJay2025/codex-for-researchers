@@ -1,0 +1,8 @@
+offer_id,tier,trigger_service,name,price_rmb,best_for,deliverable,scope,turnaround,delivery_note
+paper-reading-brief,entry,,论文精读,1.99,第一次尝试论文阅读辅助的用户,一份 Markdown 论文精读笔记,一篇论文链接 摘要或正文片段,24-72 hours,低价引流单
+citation-support-audit,entry,,引用审计,3.99,需要检查 claim 是否有引用支撑的作者,claim-to-citation 风险表,一段文字或少量 claim 列表,24-72 hours,低价引流单
+repro-audit,entry,,复现包审计,5.99,想先检查 repo 是否容易复现的研究者,复现检查表和风险报告,一个 repo 摘要 README 或文件清单,24-72 hours,低价引流单
+ten-paper-reading-pack,repeat,paper-reading,10 篇论文快速精读包,19.90,准备组会 开题或文献扫描的学生,十份简洁论文精读笔记,十篇论文的链接或摘要优先范围,5-10 days,只在首单交付有帮助后推荐
+manuscript-section-citation-audit,repeat,citation-audit,一节 manuscript 引用审计,39.90,准备投稿或返修的作者,claim 风险表 引用核对提示和更稳妥表述,一节 manuscript 正文,3-7 days,不包含系统综述
+full-repro-readiness-review,repeat,repro-audit,完整复现准备度审计,99.00,准备代码 数据或投稿材料发布的团队,repo 清单 阻塞点和可用性声明建议,一个完整项目包,3-10 days,不包含完整跑通全部实验
+lab-workflow-consult,custom,any,小型实验室工作流设置,699.00,需要复用 Codex SOP 的实验室或小团队,私有模板 学生 onboarding 提示词和检查表,一个小型实验室工作流,1-2 weeks,范围沟通后报价
