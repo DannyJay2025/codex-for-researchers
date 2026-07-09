@@ -41,3 +41,7 @@ Data availability will depend on the source and access restrictions of the datas
 2. Add environment lock file.
 3. Separate raw data, processed data, and generated outputs.
 4. Add code and data availability statements to the manuscript.
+
+## Delivery Note
+
+This output is an AI-assisted research workflow draft. Please verify all citations, statistics, factual claims, and journal requirements before submission.

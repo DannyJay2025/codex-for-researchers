@@ -88,6 +88,7 @@ def main() -> None:
                 "- [ ] No fabricated references or publication guarantees.",
                 "- [ ] Customer private material is not copied into public examples.",
                 "- [ ] One next-step recommendation is included.",
+                "- [ ] `python scripts/check_delivery.py orders/<order-id>/output/final.md --service <service>` passes.",
                 "",
                 "## After Delivery",
                 "",

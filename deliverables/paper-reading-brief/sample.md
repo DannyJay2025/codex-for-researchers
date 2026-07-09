@@ -44,3 +44,7 @@ The paper argues that the proposed method improves research workflow efficiency 
 1. What exact evidence does each figure support?
 2. Are the methods reproducible from the paper?
 3. Which claims are safe to cite in a manuscript introduction?
+
+## Delivery Note
+
+This output is an AI-assisted research workflow draft. Please verify all citations, statistics, factual claims, and journal requirements before submission.

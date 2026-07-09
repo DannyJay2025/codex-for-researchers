@@ -32,7 +32,13 @@ orders/<order-id>/delivery-checklist.md
 orders/<order-id>/notes.md
 ```
 
-Use `draft.md` while working and save the customer-ready version as `final.md`. Update `status.json` and complete `delivery-checklist.md` before sending the final result.
+Use `draft.md` while working and save the customer-ready version as `final.md`. Update `status.json`, run `scripts/check_delivery.py`, and complete `delivery-checklist.md` before sending the final result.
+
+Example quality gate:
+
+```powershell
+python scripts\check_delivery.py orders\<order-id>\output\final.md --service paper-reading
+```
 
 ## RMB 1.99: Paper Reading Brief
 
@@ -126,3 +132,4 @@ Every paid delivery must:
 - Avoid publication guarantees.
 - Avoid fabricated citations.
 - Keep customer data private.
+- Pass `scripts/check_delivery.py` before sending when the delivery is Markdown.

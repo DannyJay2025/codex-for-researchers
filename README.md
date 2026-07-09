@@ -16,6 +16,7 @@ The project is intentionally lightweight: it depends on Codex workflows and loca
 - `reproducibility-packager`: audit code, data, methods, and availability statements before submission.
 - `templates/`: reusable outputs for reading briefs, citation maps, polishing requests, and reproducibility packages.
 - `scripts/check_project.py`: basic repo health checks before publishing.
+- `scripts/check_delivery.py`: pre-send Markdown delivery quality checks.
 
 ## Buy a low-cost workflow
 
@@ -74,6 +75,7 @@ See:
 - `docs/getting-started.md` for the exact steps to run and launch the project.
 - `docs/customer-delivery-flow.md` for lead-to-delivery operations.
 - `docs/fulfillment-sop.md` for service execution steps.
+- `docs/delivery-quality.md` for the pre-send delivery quality gate.
 - `docs/order-ops-playbook.zh-CN.md` for order status, scope control, refunds, and daily operations.
 - `docs/monetization-roadmap.md` for the product ladder.
 - `docs/service-offers.md` for service packages and starter pricing.

@@ -32,4 +32,4 @@ No live literature search was performed in this sample. Candidate citation needs
 
 ## Delivery Note
 
-Please verify final references before manuscript submission.
+This output is an AI-assisted research workflow draft. Please verify final references, citations, factual claims, and journal requirements before manuscript submission.
